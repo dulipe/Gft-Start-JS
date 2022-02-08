@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <label for="multiplicando">Digite um número(multiplicando):</label>
+        <input type="text" name="multiplicando" id="multiplicando" onchange="validateNumber()"> <br>
+        <label for="inicio">Digite um inicio:</label>
+        <input type="text" name="inicio" id="inicio" onchange="validateNumber()"> <br>
+        <label for="final">Digite um final:</label>
+        <input type="text" name="final" id="final" onchange="validateNumber()"> <br>
+
+        <button onclick="calcular()">Calcular</button>
+        <p id="resultado">Resultado:</p>
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>
