@@ -1,4 +1,4 @@
-Quantidade de pares número inteiro
+1. Quantidade de pares número inteiro
 Crie um programa que leia um valor inteiro (este número tem que conter 4 dígitos).
 A saída é mostrar a quantidade de dígitos “pares”.
 Exemplo.: Digamos que a entrada foi 3257. A resposta será 1
@@ -7,7 +7,8 @@ a) A entrada deve estar entre 1000 e 9999
 b) Se o usuário digitar 3 dígitos ou menos, o Programa avisa que tem que conter 4 dígitos 
 e continuar a programação até a resposta final.
 Multiplicando (Intervalo/Resto)
-Crie um programa cujo usuário digite um número(multiplicando), o início e o fim de um 
+
+2. Crie um programa cujo usuário digite um número(multiplicando), o início e o fim de um 
 intervalo(multiplicadores). Calcule o resultado(produto) das multiplicações entre o 
 multiplicando e os multiplicadores que estão entre o intervalo e exiba a operação realizada: 
 “multiplicando x multiplicador = produto”.
@@ -23,7 +24,8 @@ podem ser maiores de 5000.
 Caso o usuário não respeite as regras acima, exiba uma mensagem de erro e pare a 
 execução do programa.
 Exemplo:
-Cinema
+
+3. Cinema
 Criar classes conforme o UML abaixo:
 Criar uma classe main para demonstrar todos os métodos criados, incluindo os objetos 
 instanciandos.
@@ -35,7 +37,7 @@ Método calcular duracao em horas deve arredondar a resposta em horas e minutos 
 casas decimais.
 Método que retorna a hora de finalização do filme deve comparar a quantidade de minutos e 
 somar ao horário da sessão.
-Abastecer veículo
+4. Abastecer veículo
 Criar uma classe veículo conforme UML abaixo:
 A classe veículo não pode ter a quantidade de combustível no tanque no construtor, deve 
 ser sempre instanciado com 0 litros.
